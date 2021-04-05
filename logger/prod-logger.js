@@ -6,7 +6,7 @@ function prodLogger() {
     return createLogger({
         level: 'info',
         format: combine(
-            label({ label: 'data extra' }),
+            // label({ label: 'data extra' }),
             errors({ stack: true }),
             timestamp(),
             json(),
